@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doce Encanto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botão">
+            <label for="menu" class="container__rotulo">
+        <span class="cabeçalho__menu-hamburger container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item"><a href="#carrossel" class="lista-menu__link"> Produtos </a></li>
+                <li class="lista-menu__item"><a href="#card" class="lista-menu__link"> Visão </a></li>
+                <li class="lista-menu__item"><a href="#card-2" class="lista-menu__link"> Nossa História </a></li>
+                <li class="lista-menu__item"><a href="#colaboradoras" class="lista-menu__link"> Colaboradoras </a></li>
+            </ul>
+        <img src="img/logod.svg" alt="Logo da Doce Encanto" class="container__imagem   logo">
+        <h1 class="container__titulo"><b class="container__titulo--negrito">Doce</b>Encanto</h1>
+    </div>
+
+    <ul class="opções">
+        <input type="checkbox" id="opções-menu" class="opções__botão">
+        <label for="opções-menu" class="opções__rotulo">
+            <li class="opções__item">Categorias</li>
+        </label>
+        <ul class="lista-menu">
+            <li class="lista-menu__item">
+                <a href="#carrossel" class="lista-menu__link"> Produtos </a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#card" class="lista-menu__link"> Visão </a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#card-2" class="lista-menu__link"> Nossa História </a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#colaboradoras" class="lista-menu__link"> Colaboradoras </a>
+            </li>
+        </ul>
+        <li class="opções__item">
+            <a href="#" class="opções__link">Favoritos</a>
+        </li>
+    </ul>
+
+    <div class="container">
+        <a href="#"><img src="img/Favoritos.svg" alt="meus Favoritos" class="container__imagem container__imagem-transparente"></a>
+        <a href="#" class="container__link">
+            <img src="img/Compras.svg" alt="carrinho de Compras" class="container__imagem ">
+            <p class="container__texto">Minha sacola</p>
+        </a>
+        <a href="#" class="container__link">
+            <img src="img/Usuario.svg" alt="meu perfil" class="container__imagem">
+            <p class="container__texto">Meu perfil</p>
+        </a>
+    </div>
+    </header>
+
+    <section class="carousel">
+
+        <div class="carousel-cll"> 
+            <div class="carousel-slides">
+                <div class="carousel-slide-cll"> 
+                    <img src="img/logocll.svg" alt="imagem logo">
+                </div>
+                <div class="carousel-slide-cll"> 
+                    <img src="img/brownie1cll.svg" alt="imagem brownies">
+                </div>
+                <div class="carousel-slide-cll"> 
+                    <img src="img/bolocll.svg" alt=" imagem bolo">
+                </div>
+                <div class="carousel-slide-cll"> 
+                    <img src="img/brownie2cll.svg" alt="imagem brownies 2">
+                </div>
+                <div class="carousel-slide-cll"> 
+                    <img src="img/logocll.svg" alt="imagem logo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="carousel">
+
+        <div class="carousel-grande"> 
+            <div class="carousel-slides">
+                <div class="carousel-slide"> 
+                    <img src="img/logobannerrosa.svg" alt="imagem logo">
+                </div>
+                <div class="carousel-slide"> 
+                    <img src="img/brownie-1.svg" alt="imagem brownies">
+                </div>
+                <div class="carousel-slide"> 
+                    <img src="img/bolo.svg" alt=" imagem bolo">
+                </div>
+                <div class="carousel-slide"> 
+                    <img src="img/brownie-2.svg" alt="imagem brownies 2">
+                </div>
+                <div class="carousel-slide"> 
+                    <img src="img/logobannerrosa.svg" alt="imagem logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe que delicia vai pedir hoje?</h2>
+        <p class="banner__texto">Encontre em nosso cardápio doses de felicidade!</p>
+        <input type="search" class="banner__pesquisa" placeholder="O que te fará mais feliz?">
+    </section>
+
+
+
+    <section id="carrossel">
+        <h2 class="carrossel__titulo">Produtos</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+        <div class="swiper">
+
+          <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+          <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/produto1.jpg" alt=" Produto 1"></div>
+      <div class="swiper-slide"><img src="img/produto2.jpg" alt=" Produto 2"></div>
+      <div class="swiper-slide"><img src="img/produto3.jpg" alt=" Produto 3"></div>
+      <div class="swiper-slide"><img src="img/produto4.jpg" alt=" Produto 4"></div>
+      <div class="swiper-slide"><img src="img/produto5.jpg" alt=" Produto 5"></div>
+    </div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+     
+    </div>
+
+</section>
+
+<section class="cards">
+
+        <div id="card">
+            <!-- 1 linha-->
+            <div class="card__descrição">
+                <!--1 coluna-->
+                <div class="descrição">
+                    <h2 class="descrição__titulo">Visão</h2>
+                    <p class="descrição__texto">
+                        Na Doce Encanto, nossa missão é criar experiências mágicas e modernas na confeitaria, transformando
+                         receitas tradicionais com qualidade, criatividade e um toque pessoal. Valorizamos ingredientes 
+                         frescos, práticos sustentáveis e conexões importantes com nossos clientes. Nosso objetivo é ser 
+                         referência na região, reconhecida pela qualidade e pelo carinho em cada doce.
+                    </p>
+                </div>
+            </div>
+           
+        </div>
+    
+    
+      <div id="card-2">
+        <!-- 1 linha-->
+        <div class="card__descrição">
+            <!--1 coluna-->
+            <div class="descrição">
+                <h2 class="descrição__titulo">Nossa História</h2>
+                <p class="descrição__texto">A Doce Encanto foi criada como parte de um trabalho de empreendedorismo proposto 
+                    pelo professor Ariel. A ideia surgiu da colaboração de todos os integrantes do grupo, refletindo nossas 
+                    ideias e paixões em um projeto único. Assim, nasceu a Doce Encanto, uma confeitaria fictícia que 
+                    representa a criatividade, dedicação e o trabalho em equipe que construíram esse sonho juntos.</p>
+            </div>
+        </div>
+       </div>
+ 
+
+</section>
+
+<section id="colaboradoras">
+    <h2 class="colaboradoras__titulo">COLABORADORAS</h2>
+
+    <div class="todas_colaboradoras">
+        <span></span>
+        <div class="colaboradora">
+            <img src="img/anaclara.jpg" alt="meu Avatar" class="imagem-colaboradora">
+            <h2 class="nome">Ana Clara</h2>
+        </div>
+        <div class="colaboradora">
+            <img src="img/anna beatriz.jpeg" alt="meu Avatar" class="imagem-colaboradora" >
+            <h2 class="nome">Anna Beatriz</h2>
+        </div>
+        <div class="colaboradora">
+            <img src="img/bruna.jpeg" alt="meu Avatar" class="imagem-colaboradora" >
+            <h2 class="nome">Bruna</h2>
+        </div>
+        <span></span>
+        <span></span>
+        <div class="colaboradora">
+            <img src="img/emily.jpg" alt="meu Avatar" class="imagem-colaboradora">
+            <h2 class="nome">Emily</h2>
+        </div>
+        <div class="colaboradora">
+            <img src="img/isadora.jpg" alt="meu Avatar" class="imagem-colaboradora">
+            <h2 class="nome">Isadora</h2>
+        </div>
+        <div class="colaboradora">
+            <img src="img/mavi.jpg" alt="meu Avatar" class="imagem-colaboradora">
+            <h2 class="nome">Maria Vitória</h2>
+        </div>
+        <span></span>
+        <span></span>
+        <div class="colaboradora">
+            <img src="img/sonia.jpeg" alt="meu Avatar" class="imagem-colaboradora">
+            <h2 class="nome">Sônia</h2>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="contato">
+    <div class="contato__descrição">
+    <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+    <p class="contato__texto">Atualizações novos produtos, promoções e outros.</p>
+    </div>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+</section>
+
+<hr/>
+
+<footer class="rodapé">
+    <h2 class="rodapé__titulo">Doce Encanto</h2>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+       spaceBetween: 10 ,
+       slidesPerView: 3,
+       pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets' ,
+       },
+       navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+       },   
+
+    });
+</script>
+
+
+</body>
+
+
+</html>

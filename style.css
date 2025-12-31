@@ -1,0 +1,32 @@
+@import url("styles/header.css");
+@import url("styles/carousel.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/cards.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+@import url("styles/colaboradoras.css");
+
+:root{
+    --cor-de-fundo: #EBECEE;
+    --branco:#FFFFFF;
+    --laranja:#EB9B00;
+    --rosa-degrade: linear-gradient(97.54deg, #ff2e96 35.49%, #ffb7db 165.37%);
+    --fonte-pricipal: "Poppins";
+    --azul: #002f52; 
+    --azul-claro: #4797b6;
+    --font-secundaria: "Josefin Sans";
+    --preto: #000000; 
+    --cinza: #474646;
+    --cinza-claro: #858585;
+    --rosa-claro: #ffd4d4 ;
+    --rosa: #dd006f;
+
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-pricipal);
+    font-size: 16px;
+    font-weight: 400;
+}
