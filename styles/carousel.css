@@ -1,0 +1,78 @@
+.carousel-cll {
+    display: block;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-slide-cll {
+    min-width: 100%;
+}
+
+.carousel-slides {
+    display: flex;
+    animation: carrosel infinite 50s 5s;
+}
+
+.carousel-grande{
+    display: none;
+}
+
+@media screen and (min-width:1024px){
+
+    .carousel-cll{
+        display: none;
+    }
+
+    .carousel-grande {
+        display: block;
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .carousel-slide {
+        min-width: 100%;
+    }
+}
+
+@keyframes carrosel {
+    0% {
+        transform: translateX(0%);
+    }
+
+    12% {
+        transform: translateX(-100%);
+    }
+
+    25% {
+        transform: translateX(-200%);
+    }
+
+    37% {
+        transform: translateX(-300%);
+    }
+
+    
+    50% {
+        transform: translateX(-400%);
+    }
+
+    62% {
+        transform: translateX(-300%);
+    }
+
+    73% {
+        transform: translateX(-200%);
+    }
+
+    
+    85% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+
+}
